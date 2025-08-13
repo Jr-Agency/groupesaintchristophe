@@ -11,6 +11,7 @@ import {
   Sparkles,
   ArrowUp,
 } from 'lucide-react';
+import logoSC2 from '../logo_sc2.png';
 
 type Page =
   | 'accueil'
@@ -79,9 +80,9 @@ const Footer: React.FC<FooterProps> = ({ navigateToPage }) => {
                 <div className="w-16 h-16 bg-gradient-to-br from-white-400 via-white-500 to-white-500 rounded-2xl flex items-center justify-center shadow-2xl">
                   <a href="#" target="_blank">
                     <img
-                      src="https://i.postimg.cc/3kBSfFs1/logo-GSC.png"
-                      border="0"
+                      src={logoSC2}
                       alt="logo-GSC"
+                      className="w-12 h-12 object-contain mx-auto"
                     />
                   </a>
                 </div>

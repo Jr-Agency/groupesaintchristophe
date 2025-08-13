@@ -1,5 +1,8 @@
 import React from 'react';
 import { Calendar, Users, Trophy, Heart, Target, BookOpen } from 'lucide-react';
+import batimentReginaCaelie4 from '../img/batiment regina caelie4.jpg';
+import maternelleLouis1 from '../img/maternelle louis1.jpg';
+import chambreInterna1 from '../img/chambre interna1.jpg';
 
 const AboutPage: React.FC = () => {
   return (
@@ -9,7 +12,7 @@ const AboutPage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${batimentReginaCaelie4})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

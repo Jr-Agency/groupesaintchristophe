@@ -1,5 +1,17 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Play, X, ZoomIn } from 'lucide-react';
+import batimentReginaCaelie6 from '../img/batiment regina caelie6.jpg';
+import elevePrimaireLouis4 from '../img/eleve primaire louis 4.jpg';
+import elevePrimaireLouis5 from '../img/eleve primaire louis 5.jpg';
+import enseignantLouis from '../img/enseignant louis.jpg';
+import WhatsAppImage111824 from '../img/WhatsApp Image 2025-08-08 à 11.18.24_5d9d3f66.jpg';
+import WhatsAppImage112002 from '../img/WhatsApp Image 2025-08-08 à 11.20.02_d3d7300f.jpg';
+import batimentInterna1 from '../img/batiment interna1.jpg';
+import elevePrimaireLouis2_2 from '../img/eleve primaire louis 2 (2).jpg';
+import WhatsAppImage101442 from '../img/WhatsApp Image 2025-08-08 à 10.14.42_a4d994c9.jpg';
+import WhatsAppImage101441 from '../img/WhatsApp Image 2025-08-08 à 10.14.41_b66a0c88.jpg';
+import WhatsAppImage101443 from '../img/WhatsApp Image 2025-08-08 à 10.14.43_2dce1b73.jpg';
+import WhatsAppImage101440 from '../img/WhatsApp Image 2025-08-08 à 10.14.40_7181352f.jpg';
 
 const GalleryPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -18,23 +30,23 @@ const GalleryPage: React.FC = () => {
     {
       id: 1,
       type: 'image',
-      src: 'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: batimentReginaCaelie6,
       title: 'Campus principal',
       category: 'campus',
-      description: 'Vue d\'ensemble de notre magnifique campus'
+      description: "Vue d'ensemble de notre magnifique campus"
     },
     {
       id: 2,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: elevePrimaireLouis4,
       title: 'Salle de classe moderne',
       category: 'campus',
-      description: 'Environnement d\'apprentissage équipé des dernières technologies'
+      description: "Environnement d'apprentissage équipé des dernières technologies"
     },
     {
       id: 3,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1720186/pexels-photo-1720186.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: elevePrimaireLouis5,
       title: 'Élèves en activité',
       category: 'students',
       description: 'Nos élèves concentrés pendant un cours'
@@ -42,7 +54,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 4,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: enseignantLouis,
       title: 'Enseignement personnalisé',
       category: 'teachers',
       description: 'Accompagnement individuel de qualité'
@@ -50,7 +62,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 5,
       type: 'image',
-      src: 'https://images.pexels.com/photos/4761615/pexels-photo-4761615.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: WhatsAppImage111824,
       title: 'Club de taekwondo',
       category: 'activities',
       description: 'Formation physique et mentale'
@@ -58,15 +70,15 @@ const GalleryPage: React.FC = () => {
     {
       id: 6,
       type: 'image',
-      src: 'https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      title: 'Cours d\'anglais',
+      src: WhatsAppImage112002,
+      title: "Cours d'anglais",
       category: 'activities',
       description: 'Apprentissage des langues dès le plus jeune âge'
     },
     {
       id: 7,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: batimentInterna1,
       title: 'Bibliothèque',
       category: 'campus',
       description: 'Espace de lecture et de recherche'
@@ -74,7 +86,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 8,
       type: 'image',
-      src: 'https://images.pexels.com/photos/3184164/pexels-photo-3184164.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: elevePrimaireLouis2_2,
       title: 'Échange culturel',
       category: 'events',
       description: 'Rencontre avec des étudiants internationaux'
@@ -82,7 +94,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 9,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: WhatsAppImage101442,
       title: 'Colonie de vacances',
       category: 'events',
       description: 'Aventures éducatives pendant les vacances'
@@ -90,7 +102,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 10,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: WhatsAppImage101441,
       title: 'Cour de récréation',
       category: 'campus',
       description: 'Espace de jeu sécurisé'
@@ -98,7 +110,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 11,
       type: 'image',
-      src: 'https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: WhatsAppImage101443,
       title: 'Cérémonie de remise des diplômes',
       category: 'events',
       description: 'Célébration de la réussite de nos élèves'
@@ -106,7 +118,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 12,
       type: 'image',
-      src: 'https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: WhatsAppImage101440,
       title: 'Excellence académique',
       category: 'students',
       description: 'Nos élèves brillent par leur excellence'
@@ -149,7 +161,7 @@ const GalleryPage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${batimentReginaCaelie6})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

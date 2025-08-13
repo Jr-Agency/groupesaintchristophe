@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import { Calendar, MessageSquare, Users, Bell, ChevronRight, Heart, Star, BookOpen } from 'lucide-react';
+import parentsDeleve from '../img/parents deleve.jpg';
+import WhatsAppImage101444 from '../img/WhatsApp Image 2025-08-08 à 10.14.44_59588fa0.jpg';
+import WhatsAppImage111821 from '../img/WhatsApp Image 2025-08-08 à 11.18.21_052ac271.jpg';
+import WhatsAppImage112001 from '../img/WhatsApp Image 2025-08-08 à 11.20.01_cfaf5a9d.jpg';
 
 const ParentsPage: React.FC = () => {
   const [selectedPost, setSelectedPost] = useState<number | null>(null);
@@ -12,7 +16,7 @@ const ParentsPage: React.FC = () => {
       content: 'La rentrée scolaire approche à grands pas et nous sommes ravis de vous présenter les nouveautés de cette année. Nouveaux programmes, activités enrichissantes et équipe pédagogique renforcée vous attendent.',
       date: '15 Août 2024',
       category: 'Actualités',
-      image: 'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: parentsDeleve,
       author: 'Direction pédagogique'
     },
     {
@@ -22,7 +26,7 @@ const ParentsPage: React.FC = () => {
       content: 'L\'accompagnement scolaire à la maison est essentiel. Découvrez nos méthodes éprouvées pour aider votre enfant à développer son autonomie tout en maintenant sa motivation.',
       date: '10 Août 2024',
       category: 'Conseils',
-      image: 'https://images.pexels.com/photos/1720186/pexels-photo-1720186.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: WhatsAppImage101444,
       author: 'Équipe pédagogique'
     },
     {
@@ -32,7 +36,7 @@ const ParentsPage: React.FC = () => {
       content: 'Plus de 200 familles ont visité nos établissements lors de la journée portes ouvertes. Parents et enfants ont pu découvrir nos installations modernes et rencontrer notre équipe.',
       date: '5 Août 2024',
       category: 'Événements',
-      image: 'https://images.pexels.com/photos/3184164/pexels-photo-3184164.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: WhatsAppImage111821,
       author: 'Service communication'
     },
     {
@@ -42,7 +46,7 @@ const ParentsPage: React.FC = () => {
       content: 'Dans un monde globalisé, la maîtrise de plusieurs langues devient indispensable. Notre approche pédagogique favorise un apprentissage naturel et progressif de l\'anglais.',
       date: '1er Août 2024',
       category: 'Conseils',
-      image: 'https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: WhatsAppImage112001,
       author: 'Département langues'
     }
   ];
@@ -93,7 +97,7 @@ const ParentsPage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${parentsDeleve})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

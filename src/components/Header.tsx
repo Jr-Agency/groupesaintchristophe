@@ -11,6 +11,7 @@ import {
   Phone,
   Sparkles,
 } from 'lucide-react';
+import logoSC2 from '../logo_sc2.png';
 
 type Page =
   | 'accueil'
@@ -114,9 +115,9 @@ const Header: React.FC<HeaderProps> = ({
                 >
                   <a href="#" target="_blank">
                     <img
-                      src="https://i.postimg.cc/3kBSfFs1/logo-GSC.png"
-                      border="0"
+                      src={logoSC2}
                       alt="logo-GSC"
+                      className="w-12 h-12 object-contain mx-auto"
                     />
                   </a>
 

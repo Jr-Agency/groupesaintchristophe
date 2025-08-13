@@ -1,71 +1,82 @@
 import React from 'react';
 import { Globe, Zap, Trophy, Heart, Shield, Users, BookOpen, Star } from 'lucide-react';
+import elevePrimaireLouis1 from '../img/eleve primaire louis 1.jpg';
+import enseignantLouis from '../img/enseignant louis.jpg';
+import chambreInterna1 from '../img/chambre interna1.jpg';
+import batimentInterna1 from '../img/batiment interna1.jpg';
+import batimentReginaCaelie4 from '../img/batiment regina caelie4.jpg';
+import maternelleLouis1 from '../img/maternelle louis1.jpg';
+import WhatsAppImage101440 from '../img/WhatsApp Image 2025-08-08 à 10.14.40_7181352f.jpg';
+import WhatsAppImage111820 from '../img/WhatsApp Image 2025-08-08 à 11.18.20_5d32961c.jpg';
+import WhatsAppImage101441 from '../img/WhatsApp Image 2025-08-08 à 10.14.41_b66a0c88.jpg';
+import WhatsAppImage101442 from '../img/WhatsApp Image 2025-08-08 à 10.14.42_a4d994c9.jpg';
+import WhatsAppImage101443 from '../img/WhatsApp Image 2025-08-08 à 10.14.43_2dce1b73.jpg';
 
 const AssetsPage: React.FC = () => {
   const assets = [
     {
       icon: Globe,
-      title: 'Cours d\'anglais dès le plus jeune âge',
-      description: 'Immersion linguistique précoce pour une maîtrise parfaite de l\'anglais et préparation aux défis internationaux.',
-      image: 'https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Cours d'anglais dès le plus jeune âge",
+      description: "Immersion linguistique précoce pour une maîtrise parfaite de l'anglais et préparation aux défis internationaux.",
+      image: elevePrimaireLouis1,
       color: 'from-blue-500 to-blue-600',
       benefits: ['Bilinguisme garanti', 'Ouverture internationale', 'Avantage concurrentiel']
     },
     {
       icon: Zap,
       title: 'Clubs de taekwondo',
-      description: 'Formation physique et mentale à travers l\'art martial, développant discipline, respect et confiance en soi.',
-      image: 'https://images.pexels.com/photos/4761615/pexels-photo-4761615.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      description: "Formation physique et mentale à travers l'art martial, développant discipline, respect et confiance en soi.",
+      image: chambreInterna1,
       color: 'from-red-500 to-red-600',
       benefits: ['Discipline physique', 'Force mentale', 'Valeurs martiales']
     },
     {
       icon: Trophy,
-      title: 'Programme d\'échange culturel',
-      description: 'Ouverture sur le monde grâce à des partenariats internationaux et des échanges enrichissants.',
-      image: 'https://images.pexels.com/photos/3184164/pexels-photo-3184164.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Programme d'échange culturel",
+      description: "Ouverture sur le monde grâce à des partenariats internationaux et des échanges enrichissants.",
+      image: WhatsAppImage101440,
       color: 'from-green-500 to-green-600',
       benefits: ['Vision mondiale', 'Échanges culturels', 'Réseau international']
     },
     {
       icon: Heart,
       title: 'Colonie de vacances',
-      description: 'Aventures éducatives pendant les vacances pour continuer l\'apprentissage dans la joie et la découverte.',
-      image: 'https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      description: "Aventures éducatives pendant les vacances pour continuer l'apprentissage dans la joie et la découverte.",
+      image: maternelleLouis1,
       color: 'from-yellow-500 to-orange-500',
       benefits: ['Apprentissage ludique', 'Aventures enrichissantes', 'Souvenirs durables']
     },
     {
       icon: Users,
-      title: 'Encadrement pédagogique de qualité',
-      description: 'Équipe d\'enseignants expérimentés et passionnés, dédiés à l\'excellence éducative de chaque élève.',
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Encadrement pédagogique de qualité",
+      description: "Équipe d'enseignants expérimentés et passionnés, dédiés à l'excellence éducative de chaque élève.",
+      image: enseignantLouis,
       color: 'from-purple-500 to-purple-600',
       benefits: ['Expertise reconnue', 'Suivi personnalisé', 'Passion éducative']
     },
     {
       icon: Shield,
-      title: 'Environnement sain et stimulant',
-      description: 'Cadre sécurisé et bienveillant favorisant l\'épanouissement personnel et académique des élèves.',
-      image: 'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Environnement sain et stimulant",
+      description: "Cadre sécurisé et bienveillant favorisant l'épanouissement personnel et académique des élèves.",
+      image: batimentInterna1,
       color: 'from-teal-500 to-teal-600',
       benefits: ['Sécurité totale', 'Bien-être garanti', 'Développement optimal']
     },
     {
       icon: BookOpen,
-      title: 'Enseignants qualifiés',
-      description: 'Professionnels diplômés et certifiés, en formation continue pour rester à la pointe de la pédagogie moderne.',
-      image: 'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Enseignants qualifiés",
+      description: "Professionnels diplômés et certifiés, en formation continue pour rester à la pointe de la pédagogie moderne.",
+      image: WhatsAppImage111820,
       color: 'from-indigo-500 to-indigo-600',
       benefits: ['Diplômes reconnus', 'Formation continue', 'Méthodes innovantes']
     },
     {
       icon: Star,
-      title: 'Excellence académique reconnue',
-      description: 'Résultats exceptionnels aux examens et reconnaissance par les institutions éducatives nationales.',
-      image: 'https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: "Excellence académique reconnue",
+      description: "Résultats exceptionnels aux examens et reconnaissance par les institutions éducatives nationales.",
+      image: WhatsAppImage101441,
       color: 'from-pink-500 to-pink-600',
-      benefits: ['Taux de réussite élevé', 'Reconnaissance officielle', 'Réputation d\'excellence']
+      benefits: ['Taux de réussite élevé', 'Reconnaissance officielle', "Réputation d'excellence"]
     }
   ];
 
@@ -76,7 +87,7 @@ const AssetsPage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${WhatsAppImage101442})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import { MapPin, Bed, Users, BookOpen, Utensils, Monitor, ChevronRight } from 'lucide-react';
+import batimentReginaCaelie4 from '../img/batiment regina caelie4.jpg';
+import maternelleLouis2 from '../img/maternelle louis2.jpg';
+import batimentInterna1 from '../img/batiment interna1.jpg';
+import whatsappNzengAyong from '../img/WhatsApp Image 2025-08-10 à 14.15.03_a5675470.jpg';
 
 const SchoolsPage: React.FC = () => {
   const [selectedSchool, setSelectedSchool] = useState(0);
@@ -9,7 +13,7 @@ const SchoolsPage: React.FC = () => {
       name: 'Bas de Guégué',
       subtitle: 'Collège/Lycée Regina Caeli',
       description: 'Notre établissement phare accueille les élèves du secondaire de la 6e à la 3e avec un internat sécurisé.',
-      image: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: batimentReginaCaelie4,
       features: [
         { icon: BookOpen, title: 'Secondaire 6e à 3e', description: 'Formation complète du collège' },
         { icon: Bed, title: 'Internat sécurisé', description: 'Pavillons séparés filles/garçons' },
@@ -22,7 +26,7 @@ const SchoolsPage: React.FC = () => {
       name: 'Louis',
       subtitle: 'Éducation complète de la petite enfance au primaire',
       description: 'Un environnement adapté aux plus jeunes avec des équipements modernes et une attention particulière au bien-être.',
-      image: 'https://images.pexels.com/photos/1720186/pexels-photo-1720186.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: maternelleLouis2,
       features: [
         { icon: Users, title: 'Crèche climatisée', description: 'Accueil des tout-petits dans le confort' },
         { icon: BookOpen, title: 'Maternelle & Primaire', description: 'Formation de base solide' },
@@ -36,7 +40,7 @@ const SchoolsPage: React.FC = () => {
       name: 'Nzeng-Ayong',
       subtitle: 'Annexe d\'excellence',
       description: 'Notre annexe maintient tous les standards du groupe avec les mêmes valeurs et programmes éducatifs.',
-      image: 'https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: whatsappNzengAyong,
       features: [
         { icon: BookOpen, title: 'Programmes complets', description: 'Tous les niveaux d\'enseignement' },
         { icon: Users, title: 'Équipe qualifiée', description: 'Enseignants expérimentés' },
@@ -54,7 +58,7 @@ const SchoolsPage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${batimentReginaCaelie4})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

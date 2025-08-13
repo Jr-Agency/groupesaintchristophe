@@ -9,6 +9,12 @@ import {
   ArrowRight,
   Play,
 } from 'lucide-react';
+import batimentReginaCaelie5 from '../img/batiment regina caelie5.jpg';
+import WhatsAppImage101443 from '../img/WhatsApp Image 2025-08-08 à 10.14.43_2dce1b73.jpg';
+import elevePrimaireLouis13 from '../img/eleve primaire louis 13.jpg';
+import logoSC2 from '../logo_sc2.png';
+import batimentReginaCaelie6 from '../img/batiment regina caelie6.jpg';
+import elevePrimaireLouis2 from '../img/eleve primaire louis 2.jpg';
 
 const HomePage: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -17,20 +23,17 @@ const HomePage: React.FC = () => {
 
   const heroSlides = [
     {
-      image:
-        'https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop',
+      image: batimentReginaCaelie5,
       title: 'Excellence Éducative',
       subtitle: 'Depuis 1979',
     },
     {
-      image:
-        'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop',
+      image: WhatsAppImage101443,
       title: 'Innovation Pédagogique',
       subtitle: 'Technologies modernes',
     },
     {
-      image:
-        'https://images.pexels.com/photos/1720186/pexels-photo-1720186.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop',
+      image: elevePrimaireLouis13,
       title: 'Épanouissement Personnel',
       subtitle: 'Chaque élève compte',
     },
@@ -109,9 +112,9 @@ const HomePage: React.FC = () => {
               <div className="relative w-full h-full bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shadow-2xl border-4 border-white/30">
                 <a href="#" target="_blank">
                   <img
-                    src="https://i.postimg.cc/3kBSfFs1/logo-GSC.png"
-                    border="0"
+                    src={logoSC2}
                     alt="logo-GSC"
+                    className="w-20 h-20 object-contain mx-auto"
                   />
                 </a>
                 <Sparkles className="absolute -top-2 -right-2 w-8 h-8 text-yellow-400 animate-pulse" />
@@ -249,8 +252,7 @@ const HomePage: React.FC = () => {
                   title: 'Excellence académique',
                   description:
                     "Des programmes d'enseignement rigoureux et adaptés aux standards internationaux.",
-                  image:
-                    'https://images.pexels.com/photos/159844/book-address-book-learning-learn-159844.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+                  image: batimentReginaCaelie6,
                   color: 'from-blue-500 to-cyan-500',
                   icon: BookOpen,
                 },
@@ -258,8 +260,7 @@ const HomePage: React.FC = () => {
                   title: 'Environnement bienveillant',
                   description:
                     "Un cadre sécurisé et stimulant pour l'épanouissement de chaque élève.",
-                  image:
-                    'https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+                  image: elevePrimaireLouis2,
                   color: 'from-green-500 to-emerald-500',
                   icon: Users,
                 },
@@ -267,8 +268,7 @@ const HomePage: React.FC = () => {
                   title: 'Formation complète',
                   description:
                     'De la crèche au lycée, nous accompagnons vos enfants à chaque étape.',
-                  image:
-                    'https://images.pexels.com/photos/1487589/pexels-photo-1487589.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+                  image: batimentReginaCaelie5,
                   color: 'from-yellow-500 to-orange-500',
                   icon: Award,
                 },

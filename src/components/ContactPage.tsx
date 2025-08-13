@@ -9,6 +9,7 @@ import {
   Users,
   CheckCircle,
 } from 'lucide-react';
+import batimentReginaCaelie5 from '../img/batiment regina caelie5.jpg';
 
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -97,8 +98,7 @@ const ContactPage: React.FC = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage:
-              'url(https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+            backgroundImage: `url(${batimentReginaCaelie5})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
