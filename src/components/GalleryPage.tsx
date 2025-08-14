@@ -10,7 +10,7 @@ import batimentInterna1 from '../img/batiment interna1.jpg';
 import elevePrimaireLouis2_2 from '../img/eleve primaire louis 2 (2).jpg';
 import colonie from '../img/colonie.jpeg';
 import WhatsAppImage101441 from '../img/WhatsApp Image 2025-08-08 à 10.14.41_b66a0c88.jpg';
-import WhatsAppImage101443 from '../img/WhatsApp Image 2025-08-08 à 10.14.43_2dce1b73.jpg';
+import remisediplome from '../img/remisediplome.webp';
 import WhatsAppImage101440 from '../img/WhatsApp Image 2025-08-08 à 10.14.40_7181352f.jpg';
 
 const GalleryPage: React.FC = () => {
@@ -110,7 +110,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 11,
       type: 'image',
-      src: WhatsAppImage101443,
+      src: remisediplome,
       title: 'Cérémonie de remise des diplômes',
       category: 'events',
       description: 'Célébration de la réussite de nos élèves'
