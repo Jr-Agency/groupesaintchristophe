@@ -2,7 +2,7 @@ import React from 'react';
 import { Globe, Zap, Trophy, Heart, Shield, Users, BookOpen, Star } from 'lucide-react';
 import elevePrimaireLouis1 from '../img/eleve primaire louis 1.jpg';
 import enseignantLouis from '../img/enseignant louis.jpg';
-import chambreInterna1 from '../img/chambre interna1.jpg';
+import taekwendo from '../img/taekwendo.jpeg';
 import batimentInterna1 from '../img/batiment interna1.jpg';
 import batimentReginaCaelie4 from '../img/batiment regina caelie4.jpg';
 import maternelleLouis1 from '../img/maternelle louis1.jpg';
@@ -26,7 +26,7 @@ const AssetsPage: React.FC = () => {
       icon: Zap,
       title: 'Clubs de taekwondo',
       description: "Formation physique et mentale à travers l'art martial, développant discipline, respect et confiance en soi.",
-      image: chambreInterna1,
+      image: taekwendo,
       color: 'from-red-500 to-red-600',
       benefits: ['Discipline physique', 'Force mentale', 'Valeurs martiales']
     },
@@ -50,7 +50,7 @@ const AssetsPage: React.FC = () => {
       icon: Users,
       title: "Encadrement pédagogique de qualité",
       description: "Équipe d'enseignants expérimentés et passionnés, dédiés à l'excellence éducative de chaque élève.",
-      image: enseignantLouis,
+      image: WhatsAppImage101440,
       color: 'from-purple-500 to-purple-600',
       benefits: ['Expertise reconnue', 'Suivi personnalisé', 'Passion éducative']
     },
@@ -66,7 +66,7 @@ const AssetsPage: React.FC = () => {
       icon: BookOpen,
       title: "Enseignants qualifiés",
       description: "Professionnels diplômés et certifiés, en formation continue pour rester à la pointe de la pédagogie moderne.",
-      image: WhatsAppImage111820,
+      image: enseignantLouis,
       color: 'from-indigo-500 to-indigo-600',
       benefits: ['Diplômes reconnus', 'Formation continue', 'Méthodes innovantes']
     },

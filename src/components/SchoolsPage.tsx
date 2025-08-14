@@ -12,10 +12,10 @@ const SchoolsPage: React.FC = () => {
     {
       name: 'Bas de Guégué',
       subtitle: 'Collège/Lycée Regina Caeli',
-      description: 'Notre établissement phare accueille les élèves du secondaire de la 6e à la 3e avec un internat sécurisé.',
+      description: 'Notre établissement phare accueille les élèves du secondaire de la 6e en Tle avec un internat sécurisé.',
       image: batimentReginaCaelie4,
       features: [
-        { icon: BookOpen, title: 'Secondaire 6e à 3e', description: 'Formation complète du collège' },
+        { icon: BookOpen, title: 'Secondaire 6e en Tle', description: 'Formation complète du collège' },
         { icon: Bed, title: 'Internat sécurisé', description: 'Pavillons séparés filles/garçons' },
         { icon: Users, title: 'Encadrement 24h/24', description: 'Surveillance et accompagnement permanent' },
       ],

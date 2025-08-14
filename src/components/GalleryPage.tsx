@@ -4,11 +4,11 @@ import batimentReginaCaelie6 from '../img/batiment regina caelie6.jpg';
 import elevePrimaireLouis4 from '../img/eleve primaire louis 4.jpg';
 import elevePrimaireLouis5 from '../img/eleve primaire louis 5.jpg';
 import enseignantLouis from '../img/enseignant louis.jpg';
-import WhatsAppImage111824 from '../img/WhatsApp Image 2025-08-08 à 11.18.24_5d9d3f66.jpg';
+import taekwendo from '../img/taekwendo.jpeg';
 import WhatsAppImage112002 from '../img/WhatsApp Image 2025-08-08 à 11.20.02_d3d7300f.jpg';
 import batimentInterna1 from '../img/batiment interna1.jpg';
 import elevePrimaireLouis2_2 from '../img/eleve primaire louis 2 (2).jpg';
-import WhatsAppImage101442 from '../img/WhatsApp Image 2025-08-08 à 10.14.42_a4d994c9.jpg';
+import colonie from '../img/colonie.jpeg';
 import WhatsAppImage101441 from '../img/WhatsApp Image 2025-08-08 à 10.14.41_b66a0c88.jpg';
 import WhatsAppImage101443 from '../img/WhatsApp Image 2025-08-08 à 10.14.43_2dce1b73.jpg';
 import WhatsAppImage101440 from '../img/WhatsApp Image 2025-08-08 à 10.14.40_7181352f.jpg';
@@ -62,7 +62,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 5,
       type: 'image',
-      src: WhatsAppImage111824,
+      src: taekwendo,
       title: 'Club de taekwondo',
       category: 'activities',
       description: 'Formation physique et mentale'
@@ -94,7 +94,7 @@ const GalleryPage: React.FC = () => {
     {
       id: 9,
       type: 'image',
-      src: WhatsAppImage101442,
+      src: colonie,
       title: 'Colonie de vacances',
       category: 'events',
       description: 'Aventures éducatives pendant les vacances'
