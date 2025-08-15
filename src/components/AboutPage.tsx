@@ -183,6 +183,127 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
       </section>
+      {/* Section Inscriptions et Frais */}
+<section className="py-20 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="max-w-6xl mx-auto">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">
+          Informations d'Inscriptions & Frais
+        </h2>
+        <p className="text-xl text-gray-600">
+          Retrouvez ici les pièces à fournir, les frais et la scolarité pour chaque établissement.
+        </p>
+      </div>
+
+      {/* Tableau des établissements */}
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse bg-white shadow-xl rounded-xl overflow-hidden">
+          <thead>
+            <tr className="bg-gradient-to-r from-blue-600 to-green-600 text-white">
+              <th className="p-4 text-left">Établissement</th>
+              <th className="p-4 text-left">Pièces à fournir</th>
+              <th className="p-4 text-left">Frais d'inscription</th>
+              <th className="p-4 text-left">Scolarité mensuelle</th>
+              <th className="p-4 text-left">Internat</th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Établissement 1 */}
+            <tr className="border-b hover:bg-blue-50">
+              <td className="p-4 font-semibold text-blue-900">
+                Maternelle / Crèche / Primaire
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                - Copie acte de naissance (légalisée 5e année)<br/>
+                - 2 photos d’identité<br/>
+                - Copie carnet de vaccination (maternelle)<br/>
+                - Copie bulletin établissement d’origine<br/>
+                - Chemise cartonnée
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                Crèche : 25 000 F<br/>
+                Garderie : 20 000 F<br/>
+                Maternelle & Primaire : 15 000 F<br/>
+                Assurance : 3 000 F<br/>
+                Coopérative : 5 000 F<br/>
+                Tenue maternelle : 11 000 F<br/>
+                Tenue primaire : 14 000 F<br/>
+                Bulletin : 1 000 F (mat.) / 2 000 F (prim.)<br/>
+                Cantine 2ᵉ : 25 000 F<br/>
+                Heures supp. garderie : 10 000 F
+              </td>
+              <td className="p-4 text-gray-700 text-sm">Selon niveau et options</td>
+              <td className="p-4 text-gray-700 text-sm">—</td>
+            </tr>
+
+            {/* Établissement 2 */}
+            <tr className="border-b hover:bg-blue-50">
+              <td className="p-4 font-semibold text-blue-900">
+                Institut Privé Regina Caeli (Collège/Lycée - Internes)
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                - Fiche d’inscription<br/>
+                - 2 photos (4 si classe d’examen)<br/>
+                - Copie légalisée acte de naissance (classe d’examen)<br/>
+                - Bulletin dernière classe suivie<br/>
+                - Chemise cartonnée élastique<br/>
+                - Rame papier CANON<br/>
+                - Rouleau papier toilette
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                Inscription : 30 000 F<br/>
+                Assurance : 10 000 F<br/>
+                Frais généraux : 10 000 F<br/>
+                Uniforme : 16 000 F<br/>
+                Coopérative : 5 000 F<br/>
+                Carnet liaison : 5 000 F<br/>
+                Carte scolaire : 3 000 F<br/>
+                <strong>Total : 79 000 F</strong>
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                6ᵉ à 4ᵉ : 35 000 F<br/>
+                3ᵉ à Terminale : 40 000 F
+              </td>
+              <td className="p-4 text-gray-700 text-sm">Inclus dans internat</td>
+            </tr>
+
+            {/* Établissement 3 */}
+            <tr className="hover:bg-blue-50">
+              <td className="p-4 font-semibold text-blue-900">
+                Collège/Lycée Privé Laïc Regina Caeli – Internat
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                - Fiche d’inscription<br/>
+                - 2 photos (4 si classe d’examen)<br/>
+                - Copie légalisée acte de naissance (classe d’examen)<br/>
+                - Bulletin dernière classe suivie<br/>
+                - Chemise cartonnée élastique<br/>
+                - Rame papier CANON
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                Inscription : 20 000 F<br/>
+                Assurance : 3 000 F<br/>
+                Frais généraux : 10 000 F<br/>
+                Uniforme : 16 000 F<br/>
+                Coopérative : 5 000 F<br/>
+                Carnet liaison : 5 000 F<br/>
+                Carte scolaire : 3 000 F<br/>
+                <strong>Total : 62 000 F</strong>
+              </td>
+              <td className="p-4 text-gray-700 text-sm">
+                6ᵉ à 4ᵉ : 30 000 F<br/>
+                3ᵉ à Terminale : 35 000 F
+              </td>
+              <td className="p-4 text-gray-700 text-sm">160 000 F / mois</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
