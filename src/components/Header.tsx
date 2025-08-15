@@ -211,7 +211,7 @@ const Header: React.FC<HeaderProps> = ({
 
           {/* Menu mobile avec design amélioré */}
           <div
-            className={`lg:hidden overflow-hidden transition-all duration-700 ease-out ${
+            className={`lg:hidden overflow-y-auto transition-all duration-700 ease-out ${
               isMenuOpen
                 ? 'max-h-[500px] opacity-100 mt-6'
                 : 'max-h-0 opacity-0'
